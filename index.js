@@ -1,7 +1,7 @@
-const Reader = require("./lib/utils/Reader")
-const ExplorerService = require("./lib/Services/ExplorerServices")
+const Reader = require("./lib/utils/Reader");
+const ExplorerService = require("./lib/Services/ExplorerServices");
 
-const explorers = Reader.readJsonFile("explorers.json")
+const explorers = Reader.readJsonFile("explorers.json");
 //console.log(explorers)
 
 // Aplicación del ExplorerService sobre la lista de explorers
