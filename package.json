@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "scripts": {
-      "test": "node ./node_modules/.bin/jest",
-      "linter": "node ./node_modules/eslint/bin/eslint.js .",
-      "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
-    },
+    "test": "node ./node_modules/.bin/jest",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
